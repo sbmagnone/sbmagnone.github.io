@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #F1F6F4;
+  min-height: 100vh; }
+
+header {
+  width: 100%;
+  background-color: #F1F6F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Trying to add a background image looks horrid. */
+  /*background-image: url('header-background.jpg');
+    background-size: cover;
+    background-position: center;*/ }
+  header .title {
+    display: block;
+    padding: 10px;
+    color: inherit !important;
+    text-decoration: none !important;
+    text-align: center; }
+  header h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0 0 0px; }
+  header h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 0 0 20px; }
+  header nav {
+    display: inline-flex;
+    border-top: 3px double #542512;
+    border-bottom: 3px double #542512;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 20px; }
+  header nav a {
+    display: inline-block;
+    padding: 10px; }
+    header nav a:link, header nav a:visited {
+      text-decoration: none;
+      color: inherit; }
+    header nav a:hover {
+      text-decoration: underline; }
+
+.main-content {
+  background: white;
+  color: black;
+  font: 300 20px "Crimson Pro", serif;
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 5px 10px;
+  text-align: left; }
+  @media (min-width: 700px) {
+    .main-content {
+      border-radius: 4px;
+      margin: 10px auto;
+      width: calc(100% - 20px); } }
+  .main-content > *:first-child {
+    margin-top: 0; }
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400; }
+    .main-content h1 a, .main-content h2 a, .main-content h3 a, .main-content h4 a, .main-content h5 a, .main-content h6 a {
+      text-decoration: none !important;
+      color: inherit !important; }
+  .main-content h1 {
+    font-size: 1.75em; }
+  .main-content h2 {
+    font-size: 1.3em; }
+  .main-content h3 {
+    font-size: 1em; }
+  .main-content h4 {
+    font-size: 0.9em; }
+  .main-content h5 {
+    font-size: 0.8em; }
+  .main-content .subtitle, .main-content .figure {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 14px; }
+  .main-content h1 + .subtitle, .main-content h2 + .subtitle {
+    margin-top: -0.8em; }
+  .main-content .figure {
+    width: 90%;
+    max-width: 500px;
+    margin: 1.5em auto; }
+    .main-content .figure img {
+      width: 100%; }
+
+footer {
+  font-family: 'Josefin Slab', serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  width: 100%; }

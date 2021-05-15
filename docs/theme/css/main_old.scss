@@ -1,0 +1,193 @@
+$header_background: #E8E4C6;
+$nav_background: #542512;
+$nav_hover: #873C1B;
+$body_background: #F1F6F4;
+
+$body_font: 300 20px "Crimson Pro", serif;
+//$body_font: 500 20px "Josefin Slab", sans-serif;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $body_background;
+    min-height: 100vh;
+}
+
+.homepage {
+    text-align: center;
+    padding: 20px;
+    background: $body_background;
+
+    h1 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+        font-size: 80px;
+        margin: 0 0 0px;
+    }
+    h2 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 400;
+        font-size: 60px;
+        margin: 0 0 20px;
+    }
+
+
+    nav {
+        display: inline-flex;
+        border-top: 3px double $nav_background;
+        border-bottom: 3px double $nav_background;
+
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0 0 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px;
+
+        &:link, &:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+header {
+    width: 100%;
+
+    background-color: $header_background;
+
+    /* Trying to add a background image looks horrid. */
+    /*background-image: url('header-background.jpg');
+    background-size: cover;
+    background-position: center;*/
+
+    .title {
+        display: block;
+        padding: 10px;
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    h1 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+        font-size: 36px;
+        margin: 0;
+    }
+    h2 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 400;
+        font-size: 24px;
+        margin: 0 0 5px;
+    }
+
+    nav {
+        display: flex;
+        background: $nav_background;
+        color: white;
+        align-items: baseline;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    nav a {
+        padding: 10px;
+
+        &:link, &:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        &:hover {
+            background: $nav_hover;
+        }
+    }
+
+    nav a.selected {
+        color: #E2E19F;
+    }
+}
+
+.main-content {
+    background: white;
+    color: black;
+    font: $body_font;
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 5px 10px;
+    text-align: left;
+
+    @media (min-width: 700px) {
+        border-radius: 4px;
+        margin: 10px auto;
+        width: calc(100% - 20px);
+    }
+
+    > *:first-child {
+        margin-top: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 400;
+    }
+
+    h1 { font-size: 1.75em; }
+    h2 { font-size: 1.3em; }
+    h3 { font-size: 1em; }
+    h4 { font-size: 0.9em; }
+    h5 { font-size: 0.8em; }
+
+    .subtitle, .figure {
+        font-family: 'Josefin Slab', serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    h2 + .subtitle {
+        margin-top: -0.8em;
+    }
+
+    .figure {
+        width: 90%;
+        max-width: 500px;
+        margin: 1.5em auto;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.standard-layout footer {
+    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    background: $nav_background;
+    text-align: center;
+    width: 100%;
+}
