@@ -1,5 +1,6 @@
 __pycache__
 *.so
+*.sublime-workspace
 .webassets-cache
 *-venv
-
+docs-dev

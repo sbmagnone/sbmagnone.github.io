@@ -29,9 +29,8 @@ Deployment
 When you're satisfied with the changes you've made,
 
 1. kill the development server (``ctrl-c``);
-2. clean the output directory: ``make clean``;
-3. regenerate the page using publication settings: ``make publish``; and
-4. commit the changes to git. This last one takes a few quick steps:
+2. regenerate the page using publication settings: ``make publish``; and
+3. commit the changes to git. This last one takes a few quick steps:
 
     a. ``git add .`` to add all unstaged changes
     b. ``git commit -m "description of changes"`` (the commit message can be whatever you want, but is handy to keep track of your work)

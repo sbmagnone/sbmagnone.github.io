@@ -1,0 +1,24 @@
+{
+	"folders":
+    [
+		{
+			"path": ".",
+            "folder_exclude_patterns": [
+                "__pycache__",
+                "docs",
+                "docs-dev",
+                "*-venv",
+            ],
+            "file_exclude_patterns": [
+                "*.sublime-project",
+                "*.sublime-workspace"
+            ]
+		}
+	],
+    "build_systems": [
+        {
+            "name": "Publish",
+            "shell_cmd": "cd ${project_path}; make publish"
+        }
+    ]
+}
