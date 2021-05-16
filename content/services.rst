@@ -19,7 +19,7 @@ Packages
 
 Initial Funder Research
 ------------------------
-If you’re wondering what funding opportunities are out there for your organization, start here!
+If you’re wondering what funding opportunities are out there for your organization, I'll get you started by researching prospective funders whose priorities align with your mission.
 
 Single Funding Opportunity
 --------------------------
@@ -35,4 +35,4 @@ For nonprofits, scholars, and writers of all kinds. If you’ve got written mate
 
 .. raw:: html
 
-	<p style="margin-top:2em"><a class="btn" href="#" target="_blank">Book a Complimentary Consultation</a></p>
+	<p style="margin-top:2em"><a class="btn" href="#" target="_blank">Book a Complimentary Consultation - Link TK</a></p>
