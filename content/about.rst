@@ -4,32 +4,20 @@ About
 
 :order: 1
 
-.. figure:: {attach}testimg.png
-   :alt: Testing image.
-
-   This is the caption of the figure (a simple paragraph).
-
-Modern Stoicism has become an industry. And a mega-industry at that.
-
-For the consumers seeking wisdom on how to live the good life — and there are a lot of them — there are daily digests of Stoic quotations, books and websites packed with Stoic wisdom to kick-start your day, podcasts, broadcasts, online crash courses and more.
-
-In some ways, Stoicism is well suited to a program of self-improvement. It has always been a sort of athletic training for the soul. Founded in the third century B.C.E. by the Greek philosopher Zeno of Citium and mainly associated today with Roman practitioners like the emperor Marcus Aurelius and the statesman Seneca, Stoicism stresses ethics, virtue and the attainment of that elusive good life.
-
-But today, Stoicism is not so much a philosophy as a collection of life hacks for overcoming anxiety, meditations for curbing anger, exercises for finding stillness and calm — not through “oms” or silent retreats but through discourse that chastens a mind: “The pain isn’t due to the thing itself,” says Marcus Aurelius, “but to your estimate of it.” In this mind-set, the impact of the outer world can fade away as the inner self becomes a sanctuary. The focus narrows to that self — me, isolated from the social structures that support me or bring me down.
+.. image:: {static}images/sbm-photo.jpg
+   :alt: Sophia Booth Magnone
 
 
-Section Number 2
-----------------
+As a grant writing consultant, I build power for social justice movements by helping nonprofits identify and secure funding to fuel their work.
 
-More content goes here.
+Before I entered the nonprofit world, I became a teacher and scholar of feminist literature because I believe in the power of stories to shape the contours of our world. Now, as a grant writer, I help social justice organizations tell their story to funders seeking to fuel transformative work.
 
-Hey look, an unordered list:
+A successful grant is a story that captivates its audience and compels them to take action, a channel that connects activists with the institutions who can support them. I’ll work with your team to articulate the importance of your mission, the power of your impact, and the immediacy of your need. Together, we’ll craft the stories that make your work legible and compelling to a range of potential funders.
 
-- something
-- something else
-- this text is *emphasized*
-- this text is **bold**
-- this is a link to `reStructuredText Markup Specification`_
+More about me
+=============
 
-.. _reStructuredText Markup Specification: https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+`LinkedIn <https://www.linkedin.com/in/sophiaboothmagnone/>`_
+
+Resume TK
 

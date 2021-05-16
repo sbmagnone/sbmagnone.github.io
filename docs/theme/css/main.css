@@ -102,12 +102,28 @@ header {
     font-size: 14px; }
   .main-content h1 + .subtitle, .main-content h2 + .subtitle {
     margin-top: -0.8em; }
+  .main-content img {
+    max-width: 100%; }
   .main-content .figure {
     width: 90%;
     max-width: 500px;
-    margin: 1.5em auto; }
-    .main-content .figure img {
-      width: 100%; }
+    margin: 1.5em auto;
+    text-align: center; }
+  .main-content strong {
+    font-weight: 700; }
+
+a.btn, .btn {
+  color: black;
+  background-color: #9dff7f;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: none; }
+  a.btn:hover, .btn:hover {
+    background-color: #6df742; }
+  a.btn:visited, .btn:visited {
+    color: black; }
 
 footer {
   font-family: 'Josefin Slab', serif;

@@ -2,6 +2,9 @@ $header_background: #F1F6F4;
 $highlight_color: #542512;
 $body_background: #F1F6F4;
 
+$button_color: #9dff7f;
+$button_highlight_color: #6df742;
+
 $body_font: 300 20px "Crimson Pro", serif;
 //$body_font: 500 20px "Josefin Slab", sans-serif;
 
@@ -139,14 +142,37 @@ header {
         margin-top: -0.8em;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     .figure {
         width: 90%;
         max-width: 500px;
         margin: 1.5em auto;
+        text-align: center;
+    }
 
-        img {
-            width: 100%;
-        }
+    strong {
+        font-weight: 700;
+    }
+}
+
+a.btn, .btn {
+    color: black;
+    background-color: $button_color;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $button_highlight_color;
+    }
+
+    &:visited {
+        color: black;
     }
 }
 
