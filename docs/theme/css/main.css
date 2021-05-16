@@ -13,6 +13,7 @@ body {
 
 header {
   width: 100%;
+  overflow: hidden;
   background-color: #F1F6F4;
   display: flex;
   flex-direction: column;
@@ -27,27 +28,35 @@ header {
     padding: 10px;
     color: inherit !important;
     text-decoration: none !important;
-    text-align: center; }
+    text-align: center;
+    font-size: 40px;
+    font-size: 10vw; }
+    @media (min-width: 800px) {
+      header .title {
+        font-size: 80px; } }
   header h1 {
     font-family: 'Playfair Display SC', serif;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 1em;
     margin: 0 0 0px; }
   header h2 {
     font-family: 'Playfair Display SC', serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 0.75em;
     margin: 0 0 20px; }
   header nav {
     display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
     border-top: 3px double #542512;
     border-bottom: 3px double #542512;
+    max-width: 90%;
     font-family: 'Josefin Slab', serif;
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 20px; }
   header nav a {
-    display: inline-block;
     padding: 10px; }
     header nav a:link, header nav a:visited {
       text-decoration: none;

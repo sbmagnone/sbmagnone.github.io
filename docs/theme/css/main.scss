@@ -23,6 +23,7 @@ body {
 
 header {
     width: 100%;
+    overflow: hidden;
 
     background-color: $header_background;
 
@@ -42,25 +43,36 @@ header {
         color: inherit !important;
         text-decoration: none !important;
         text-align: center;
+        font-size: 40px;
+        font-size: 10vw;
+
+        @media (min-width: 800px) {
+            font-size: 80px;
+        }
+
     }
 
     h1 {
         font-family: 'Playfair Display SC', serif;
         font-weight: 700;
-        font-size: 80px;
+        font-size: 1em;
         margin: 0 0 0px;
     }
     h2 {
         font-family: 'Playfair Display SC', serif;
         font-weight: 400;
-        font-size: 60px;
+        font-size: 0.75em;
         margin: 0 0 20px;
     }
 
     nav {
         display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
         border-top: 3px double $highlight_color;
         border-bottom: 3px double $highlight_color;
+        max-width: 90%;
 
         font-family: 'Josefin Slab', serif;
         font-size: 16px;
@@ -69,7 +81,6 @@ header {
     }
 
     nav a {
-        display: inline-block;
         padding: 10px;
 
         &:link, &:visited {
