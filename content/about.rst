@@ -4,8 +4,9 @@ About
 
 :order: 1
 
-.. image:: {static}images/sbm-photo.jpg
+.. image:: {static}images/sbm-photo-big.jpg
    :alt: Sophia Booth Magnone
+   :width: 250px
 
 
 As a grant writing consultant, I build power for social justice movements by helping nonprofits identify and secure funding to fuel their work.
