@@ -35,4 +35,4 @@ For nonprofits, scholars, and writers of all kinds. If you’ve got written mate
 
 .. raw:: html
 
-	<p style="margin-top:2em"><a class="btn" href="#" target="_blank">Book a Complimentary Consultation - Link TK</a></p>
+	<p style="margin-top:2em"><a class="btn" href="https://sbmagnone.net/contact/" >Contact Me</a></p>
