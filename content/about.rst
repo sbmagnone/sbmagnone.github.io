@@ -20,5 +20,4 @@ More about me
 
 `LinkedIn <https://www.linkedin.com/in/sophiaboothmagnone/>`_
 
-Resume TK
-
+`Resume <{static}/pdfs/Sophia-Booth-Magnone-Resume-2021.pdf>`_
