@@ -111,19 +111,47 @@ header {
     text-align: center; }
   .main-content strong {
     font-weight: 700; }
+  .main-content #packages.section p {
+    padding-left: 1em; }
 
 a.btn, .btn {
   color: black;
-  background-color: #9dff7f;
+  background-color: #EAB3FC;
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
   padding: 0.5em;
   border-radius: 0.5em;
   text-decoration: none; }
   a.btn:hover, .btn:hover {
-    background-color: #6df742; }
+    background-color: #D97CF8; }
   a.btn:visited, .btn:visited {
     color: black; }
+
+.tile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 1em 0; }
+  .tile-container .tile {
+    flex: 0 0 200px;
+    text-align: center;
+    border: 1px solid #A26EB3;
+    border-top: 8px solid #A26EB3;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-decoration: none;
+    color: black; }
+    .tile-container .tile:hover {
+      background: #fafafa; }
+    .tile-container .tile .spacer {
+      flex: 1 0 0; }
+    .tile-container .tile h2 {
+      color: #A26EB3;
+      margin: 0.8em 0 0.2em; }
 
 footer {
   font-family: 'Josefin Slab', serif;

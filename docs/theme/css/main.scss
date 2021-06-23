@@ -2,8 +2,9 @@ $header_background: #F1F6F4;
 $highlight_color: #542512;
 $body_background: #F1F6F4;
 
-$button_color: #9dff7f;
-$button_highlight_color: #6df742;
+$tile-color: #A26EB3;
+$button_color: #EAB3FC;
+$button_highlight_color: #D97CF8;
 
 $body_font: 300 20px "Crimson Pro", serif;
 //$body_font: 500 20px "Josefin Slab", sans-serif;
@@ -156,6 +157,10 @@ header {
     strong {
         font-weight: 700;
     }
+
+    .section#packages p {
+        padding-left: 1em;
+    }
 }
 
 a.btn, .btn {
@@ -173,6 +178,44 @@ a.btn, .btn {
 
     &:visited {
         color: black;
+    }
+}
+
+
+.tile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 1em 0;
+
+    .tile {
+        flex: 0 0 200px;
+        text-align: center;
+        border: 1px solid $tile-color;
+        border-top: 8px solid $tile-color;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        padding: 8px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            background: #fafafa;
+        }
+
+        .spacer {
+            flex: 1 0 0;
+        }
+
+        h2 {
+            color: $tile-color;
+            margin: 0.8em 0 0.2em;
+        }
     }
 }
 

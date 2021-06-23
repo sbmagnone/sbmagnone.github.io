@@ -18,6 +18,9 @@ A successful grant is a story that captivates its audience and compels them to t
 More about me
 =============
 
-`LinkedIn <https://www.linkedin.com/in/sophiaboothmagnone/>`_
+.. raw:: html
 
-`Resume <{static}/pdfs/Sophia-Booth-Magnone-Resume-2021.pdf>`_
+    <p style="margin-top:1em; text-align:center">
+        <a class="btn" href="https://www.linkedin.com/in/sophiaboothmagnone/" style="margin-right:1em">LinkedIn</a>
+        <a class="btn" href="{static}/pdfs/Sophia-Booth-Magnone-Resume-2021.pdf">Resume</a>
+    </p>

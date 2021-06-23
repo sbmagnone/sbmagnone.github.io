@@ -31,8 +31,8 @@ For organizations seeking support on an ongoing basis, I’ll partner with you o
 
 Copy Editing & Review
 ----------------------
-For nonprofits, scholars, and writers of all kinds. If you’ve got written material that needs review—whether it’s a grant application, fundraising appeal, or academic article—I’ll provide meticulous copyediting to make your writing clear, concise, and effective.
+For nonprofits, scholars, and writers of all kinds. If you’ve got written material that needs review—whether it’s a grant application, fundraising appeal, or academic article—I’ll provide meticulous copy editing to make your writing clear, concise, and effective.
 
 .. raw:: html
 
-	<p style="margin-top:2em"><a class="btn" href="https://sbmagnone.net/contact/" >Contact Me</a></p>
+    <p style="margin-top:2em; text-align:center"><a class="btn" href="/contact/">Contact Me</a></p>
