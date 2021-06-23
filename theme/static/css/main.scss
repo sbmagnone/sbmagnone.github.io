@@ -186,6 +186,7 @@ a.btn, .btn {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
+    flex-flow: wrap;
     margin: 1em 0;
 
     .tile {
@@ -203,6 +204,7 @@ a.btn, .btn {
 
         text-decoration: none;
         color: black;
+        margin: 1em;
 
         &:hover {
             background: #fafafa;
