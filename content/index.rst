@@ -6,6 +6,8 @@
 
 .. Note that hidden doesn't mean inaccessible. It just means that it doesn't show up in any lists of pages. The "slug=index" parameter is a special signifier to mean that this content should go on the index page.
 
+I build power for social justice movements by helping nonprofits identify and secure funding to fuel their work. I know a more just, inclusive, and equitable world is possible, and I’m driven to serve the grassroots activists doing the work it takes to get us there. If your organization needs grant writing support, let’s talk!
+
 .. raw:: html
 
     <div class="tile-container">
